@@ -1,11 +1,6 @@
-ternary operator
+logical &&
 
-{
-    this.state.submittedData ? (
-        <>
-        {this.state.submittedData.name}
-        {this.state.submittedData.email}
-        {this.state.submittedData.email}
-        </>
-    ) : "Please fill form" 
-}
+
+left side && right side
+
+"helo" && "" -> false

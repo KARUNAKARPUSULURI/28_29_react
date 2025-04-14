@@ -49,7 +49,7 @@ class LoginForm extends Component {
                                     <td>{user.email}</td>
                                     <td>{user.password}</td>
                                     <td>
-                                        <button>🆕</button>
+                                        <button>✏️</button>
                                         <button onClick={()=> this.handleDelete(index)}>👉🏻🗑️</button>
                                     </td>
                                 </tr>
